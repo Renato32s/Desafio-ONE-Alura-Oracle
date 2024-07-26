@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Desafio ONE - Oracle + Alura</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <ul class="caixa_do_logo">
+            <img class="img_logo" src="./assets/logo_alura.svg" alt="Logo Da Alura">
+        </ul>
+    </header>
+    <main class="conteudo-principal">
+        <section class="section_01">
+            <div class="div_da_entrada_de_texto">
+                <textarea class="entrada_de_texto" type="text" placeholder="Digite seu texto"></textarea>
+                <small class="aviso">
+                    <img src="./assets/img__aviso.svg" alt="Aviso Simples">
+                    Apenas letras minúsculas e sem acentos.
+                </small>
+            </div>
+            <div class="div_dos_botoes">
+                <button class="botao _crip" id="btn_crip">Criptografar</button>
+                <button class="botao _decrip" id="btn_decrip">Descriptografar</button>
+            </div>
+        </section>
+        <section class="section_02">
+            <!-- o programa só ativa essa div quando houver um texto criptografado ou descriptografado -->
+            <div class="div_da_saida_de_texto">
+                <textarea name="saida_de_texto" id="saida_de_texto"></textarea>
+                <button class="botao _copiar" id="btn_copiar">Copiar</button>
+            </div>
+            <!-- o programa deve iniciar com essa div ativa! -->
+            <div class="div_inicial_da_saida_de_texto">
+                <img class="img" src="./assets/img_saida_de_texto.svg" alt="imagem da saida de texto">
+                <div class="div_aviso_saida_de_texto">
+                    <h2 class="titulo_da_saida_de_texto">Nenhum texto encontrado</h2>
+                    <p class="paragrafo_da_saida_de_texto">Insira um texto para codificar ou descodificar.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <a href="https://github.com/Renato32s"> <img src="./assets/github.png" alt="github"> </a>
+        <a href="https://www.linkedin.com/in/renato-32p-santos/"> <img src="./assets/linkedin.png" alt="linkedin"> </a>
+        <p class="meu_nome">/Renato_Santos</p>
+    </footer>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>
