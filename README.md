@@ -52,7 +52,6 @@ Este projeto foi desenvolvido como parte do Alura Challenge. O objetivo é criar
     ```
 5. Abra um Pull Request.
 
-## Licença
 
 
 
