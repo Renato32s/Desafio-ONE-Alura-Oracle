@@ -35,22 +35,7 @@ Este projeto foi desenvolvido como parte do Alura Challenge. O objetivo é criar
     ```
 3. Abra o arquivo `index.html` no seu navegador preferido.
 
-## Como Contribuir
 
-1. Faça um fork deste repositório.
-2. Crie uma branch para sua feature ou correção de bug:
-    ```bash
-    git checkout -b minha-feature
-    ```
-3. Faça commit das suas alterações:
-    ```bash
-    git commit -m 'Adiciona minha feature'
-    ```
-4. Faça push para a branch:
-    ```bash
-    git push origin minha-feature
-    ```
-5. Abra um Pull Request.
 
 
 
